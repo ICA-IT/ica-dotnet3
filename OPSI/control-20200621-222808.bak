@@ -1,0 +1,30 @@
+[Package]
+version: 1
+depends: 
+incremental: False
+
+[Product]
+type: localboot
+id: ica-dotnet3
+name: ica-dotnet3
+description: Install .NET Framework 3.5
+advice: 
+version: 3.5
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.opsiscript
+uninstallScript: uninstall.opsiscript
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript:
+
+[Changelog]
+ica-dotnet3 (3.5-1) stable; urgency=low
+
+	* initial: created by opsi-setup-detector
+
+ -- opsisetupdetector.exe <info@uib.de>  6/21/2020 21:38:36
+
